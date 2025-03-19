@@ -4,7 +4,7 @@ This is a **CRUD (Create, Read, Update, Delete) application** for managing stude
 
 ## Features
 
-- Add new students with details such as name, age, and course.
+- Add new students with details such as first name, last name, email, percentage
 - View a list of all students.
 - Edit student details.
 - Delete student records.
@@ -43,10 +43,11 @@ This is a **CRUD (Create, Read, Update, Delete) application** for managing stude
 
 | Method | Endpoint           | Description         |
 |--------|-------------------|---------------------|
-| GET    | /students         | Get all students   |
-| POST   | /students         | Add a new student  |
-| PUT    | /students/{id}    | Update a student   |
-| DELETE | /students/{id}    | Delete a student   |
+| GET    | /api/students/        | Get all students   |
+| GET    | /api/students/{id}        | Get student by id   |
+| POST   | /api/students/add        | Add a new student  |
+| PUT    | /api/students/edit/{id}    | Update a student   |
+| DELETE | /api/students/delete/{id}    | Delete a student   |
 
 ## Contribution
 
